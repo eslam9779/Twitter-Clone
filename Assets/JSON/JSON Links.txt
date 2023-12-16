@@ -1,0 +1,10 @@
+posts link:
+
+https://jsonplaceholder.typicode.com/posts
+
+**************************************************************************************************
+
+
+users link:
+
+https://reqres.in/api/users/

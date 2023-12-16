@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Twitter - Profile</title>
+
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="shortcut icon" href="Assets/Images/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="Assets/Styles/main-style.css">
+        <link rel="stylesheet" href="Assets/Styles/profile-style.css">
+
+
+    </head>
+
+
+
+    <body>
+
+
+        <aside class="left-side-style">
+
+            <a href="Index.html"><i class="fa-brands fa-twitter"></i></a>
+
+            <ul>
+                <li><a href="Index.html"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="#"><i class="fa-solid fa-bell"></i>Notifications</a></li>
+                <li><a href="login.html"><i class="fa-solid fa-user-plus"></i></i>Login</a></li>
+                <li><a href="Profile.html" id="profileBut"><i class="fa-regular fa-user"></i>Profile</a></li>
+            </ul>
+
+           <a href="Post.html" class="tweet-but-style">Tweet</a>
+
+        </aside>
+
+
+
+
+
+
+
+        <main class="main-section-style">
+
+
+
+
+            <div class="profile-header-style">
+                <span>Profile</span>
+                <a href="#"><img src="Assets/Images/user-icon.png" width="20" height="20"></a>
+            </div>
+
+
+
+
+            <div class="profile-bg-img-style"></div>
+
+
+
+
+            <div class="profile-user-info-style">
+                <img src="Assets/Images/user-pic.jfif" width="130" height="130">
+                <button>Edit Profile</button>
+                <h2>User Name</h2>
+                <p>user@email.com</p>
+                <span>1 Following</span><span>0 Followers</span>
+                <ul>
+                    <li id="li-hover">Tweets</li>
+                    <li>Tweets & Replies</li>
+                    <li>Media</li>
+                    <li>Likes</li>
+                </ul>
+            </div>
+
+
+
+
+            <div id="add-post">
+
+                <!-- <div class="profile-posts-style">
+
+                    <img src="Assets/Images/user-pic.jfif" width="60" height="60">
+                    <span>
+                        <h3>User Name</h3>
+                        <p>user@email.com</p>
+                    </span>
+                    <div style="clear: left;"></div>
+                    <h4>Tweet Title...</h4>
+                    <p>Tweet body...</p>
+                </div> -->
+                
+            </div>
+
+
+            <script src="Assets/Scripts/profile-script.js"></script>
+
+        </main>
+
+
+        
+        
+        
+        
+
+
+
+
+        <aside class="right-side-style">
+
+            <input type="text" name="search-box" id="search" placeholder="Search">
+            <button onclick="search()">.</button>
+
+            <div id="search-continer">
+
+
+            </div>
+
+
+            <script src="Assets/Scripts/index-search-script.js"></script>
+            
+        </aside>
+
+
+        
+    </body>
+
+
+</html>
